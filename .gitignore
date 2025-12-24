@@ -21,3 +21,19 @@ package-lock.json
 
 # Ignore files created by MacOS
 .DS_Store
+
+# Jekyll 构建生成目录
+_site/
+
+# 依赖缓存目录
+/vendor/
+
+# Ruby 包管理缓存
+*.gem
+Gemfile.lock
+
+# 编辑器缓存文件（根据你的编辑器添加，如 VS Code）
+.vs/
+.vscode/
+*.swp
+*.swo
