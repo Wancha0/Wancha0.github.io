@@ -1,0 +1,40 @@
+external:
+  - title: "State Similarity in Markov Decision Processes"
+    url: "https://zhuanlan.zhihu.com/p/670780321"
+    date: "2023-12-06"
+    category: "RL"
+
+  - title: "Use of offline data in online reinforcement learning"
+    url: "https://zhuanlan.zhihu.com/p/672612163"
+    date: "2023-12-16"
+    category: "RL"
+
+  - title: "offline data in RL-based TSC problems"
+    url: "https://zhuanlan.zhihu.com/p/672708815"
+    date: "2023-12-17"
+    category: "RL"
+
+  - title: "State Design in Traffic Control Problem based on RL"
+    url: "https://zhuanlan.zhihu.com/p/676912524"
+    date: "2024-01-09"
+    category: "RL"
+
+  - title: "DATraj: A Dynamic Graph Attention Based Modelfor Social-Aware Pedestrian Trajectory Prediction"
+    url: "https://zhuanlan.zhihu.com/p/79091333940"
+    date: "2025-10-21"
+    category: "T"
+
+  - title: "Boosting the Trainingof Deep ReinforcementLearning Traffic Controlby Using the World Model"
+    url: "https://zhuanlan.zhihu.com/p/1964833744943833782"
+    date: "2025-10-23"
+    category: "RL"
+
+  - title: "Self-Aware Adaptive Alignment: Enabling Accurate Perception forIntelligent Transportation Systems"
+    url: "https://zhuanlan.zhihu.com/p/1965189758205558889"
+    date: "2025-10-24"
+    category: "RL"
+
+  - title: "Max pressure control of a network of signalized intersections"
+    url: "https://zhuanlan.zhihu.com/p/1965916358895203880"
+    date: "2025-10-26"
+    category: "RL"

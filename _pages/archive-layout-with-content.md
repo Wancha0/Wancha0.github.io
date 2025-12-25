@@ -7,10 +7,35 @@ permalink: /archive-layout-with-content/
 A variety of common markup showing how the theme styles them.
 
 # Header one
-
 ## Header two
-
 ### Header three
+
+<!-- 引入数据文件中的链接 -->
+<div class="custom-links">
+  <h3>站内导航</h3>
+  <ul>
+    <!-- 循环输出站内链接 -->
+    {% for link in site.data.links.internal %}
+      <li>
+        <a href="{{ base_path }}{{ link.url }}">
+          {{ link.name }}  <!-- 显示链接文字 -->
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <h3>外部资源</h3>
+  <ul>
+    <!-- 循环输出外部链接 -->
+    {% for link in site.data.links.external %}
+      <li>
+        <a href="{{ link.url }}" target="_blank" rel="noopener">
+          {{ link.name }}  <!-- 新窗口打开外部链接 -->
+        </a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>
 
 #### Header four
 
