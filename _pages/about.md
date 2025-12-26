@@ -7,18 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-Hi
+Hi,
 
-I'm Wan Chao, currently working at HiSilicon Technologies Co., Ltd. in Shanghai. I earned both my bachelor's and master's degrees from Nanjing University of Science and Technology. 
+I'm Wan Chao（万超）, currently working at HiSilicon Technologies Co., Ltd. in Shanghai. I received both my bachelor's and master's degrees from Nanjing University of Science and Technology.
 
-My research interests lie in smart cities, with a focus on urban micro-simulation, reinforcement learning, signal control, and spatiotemporal prediction.
+My research interests focus on smart cities, particularly urban micro-simulation, reinforcement learning, traffic signal control, and spatiotemporal prediction.
 
-Previously, my research areas mainly included:
+My previous research mainly covered:
 
-- Urban micro-traffic simulation, and the need for reinforcement learning for urban traffic simulation platforms.
+- Urban micro-traffic simulation, with an emphasis on integrating reinforcement learning into large-scale urban traffic simulation platforms.
 
-- Traffic signal control models based on reinforcement learning, with particular focus on the model's generalization ability, handling out-of-distribution (OOD) situations, and adaptive traffic signal control models applicable to the real world.
+- Reinforcement learning–based traffic signal control, focusing on model generalization, robustness under out-of-distribution (OOD) scenarios, and adaptive control strategies suitable for real-world deployment.
 
-- A real-world traffic flow prediction model that incorporates the model's understanding of prior knowledge about traffic flow.
+- Real-world traffic flow prediction models that explicitly incorporate prior knowledge and domain understanding of traffic dynamics.
 
-My latest CV: [CV](/files/wanc_cv.pdf)
+My long-term goal is to develop intelligent urban systems that are practical, scalable, and applicable in real-world settings.
+
+My latest CV: [CV](/files/wanc_cv.pdf) & Master's Transcript: [Transcript](/files/degree.pdf)
