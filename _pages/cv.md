@@ -32,7 +32,7 @@ redirect_from:
 <p></p>  <!-- 空行 -->
 <p></p>
 
-2.State Design in Reinforcement Learning-Based Traffic Signal Control Using Similarity Metrics(COTA 2025)
+2.State Design in Reinforcement Learning-Based Traffic Signal Control Using Similarity Metrics(COTA 2025, First author)
 ======
 
 This study proposes a feature fusion model based on bilinear pooling to enhance the extraction of expressive spatiotemporal features for traffic modeling. By computing the outer product of two feature vectors, bilinear pooling captures high-order interactions between different traffic parameters. Global pooling is then applied to obtain a fixed-dimensional representation. This approach effectively preserves mutual information across multiple traffic features, enabling the model to learn richer spatiotemporal dependencies and achieve stronger representation and prediction capabilities.
@@ -47,7 +47,7 @@ This study proposes a feature fusion model based on bilinear pooling to enhance 
 <p></p>  <!-- 空行 -->
 <p></p>
 
-3.StaPerNet: Feature Stabilization and Period-Level Modeling for Long-Horizon Traffic Forecasting(Under Review)
+3.StaPerNet: Feature Stabilization and Period-Level Modeling for Long-Horizon Traffic Forecasting(Under Review, First author)
 ======
 
 To address the severe non-stationarity in traffic flow data, this study proposes a channel-based feature separation framework that explicitly disentangles stationary and non-stationary components. Noise injection is applied to unstable features during training to enhance robustness, enabling the model to learn a steady-state representation of traffic dynamics. Furthermore, the extracted features are aligned according to their inherent periodic patterns and leveraged for spatiotemporal prediction. Extensive experiments on five public benchmark datasets demonstrate that the proposed method achieves state-of-the-art performance.
@@ -62,7 +62,7 @@ To address the severe non-stationarity in traffic flow data, this study proposes
 <p></p>  <!-- 空行 -->
 <p></p>
 
-4.State Encoding for Efficient Traffic Signal Control in High Volume(Under Review)
+4.State Encoding for Efficient Traffic Signal Control in High Volume(Under Review, Second author, Supervisor as first author)
 ======
 
 A biased state encoding model based on prior knowledge is proposed to improve exploration efficiency under limited computational resources and to mitigate potential out-of-distribution (OOD) errors after real-world deployment. By leveraging domain knowledge, the model identifies regions of the state space that are more informative and allocates greater representational emphasis to these regions through biased state encoding, thereby expanding the effective exploration space while reducing computational cost. Furthermore, the encoding mechanism enables unvisited states to be mapped to semantically similar trained states, enhancing the model’s extrapolation capability and robustness to unseen scenarios.
@@ -77,7 +77,7 @@ A biased state encoding model based on prior knowledge is proposed to improve ex
 <p></p>  <!-- 空行 -->
 <p></p>
 
-# 5.ECRN: Expressiveness and Constraint of Road Networks in Traffic Forecasting（Doing）
+# 5.ECRN: Expressiveness and Constraint of Road Networks in Traffic Forecasting（Doing, First author）
 
 For accurate traffic flow forecasting, appropriate modeling of temporal dynamics and road network structure is crucial. 
 Existing methods often treat road network structure as a static modeling component, neglecting its dual role: it imposes structural constraints and enhances expressive power. Therefore, simply treating the road network as a static constraint will fail to reflect the anisotropy of real-world road structures.
