@@ -23,4 +23,6 @@ My previous research mainly covered:
 
 My long-term goal is to develop intelligent urban systems that are practical, scalable, and applicable in real-world settings.
 
+Skills: Traffic Simulation, Traffic Forecasting, Traffic Signal Control, Reinforcement Learning, Python, C/C++, Java, CUDA
+
 My latest CV: [CV](/files/wanc_cv.pdf) & Master's Transcript: [Transcript](/files/degree.pdf)
