@@ -32,7 +32,7 @@ redirect_from:
 <p></p>  <!-- 空行 -->
 <p></p>
 
-2.State Design in Reinforcement Learning-Based Traffic Signal Control Using Similarity Metrics
+2.State Design in Reinforcement Learning-Based Traffic Signal Control Using Similarity Metrics(COTA 2025)
 ======
 
 This study proposes a feature fusion model based on bilinear pooling to enhance the extraction of expressive spatiotemporal features for traffic modeling. By computing the outer product of two feature vectors, bilinear pooling captures high-order interactions between different traffic parameters. Global pooling is then applied to obtain a fixed-dimensional representation. This approach effectively preserves mutual information across multiple traffic features, enabling the model to learn richer spatiotemporal dependencies and achieve stronger representation and prediction capabilities.
@@ -47,7 +47,7 @@ This study proposes a feature fusion model based on bilinear pooling to enhance 
 <p></p>  <!-- 空行 -->
 <p></p>
 
-3.StaPerNet: Feature Stabilization and Period-Level Modeling for Long-Horizon Traffic Forecasting
+3.StaPerNet: Feature Stabilization and Period-Level Modeling for Long-Horizon Traffic Forecasting(Under Review)
 ======
 
 To address the severe non-stationarity in traffic flow data, this study proposes a channel-based feature separation framework that explicitly disentangles stationary and non-stationary components. Noise injection is applied to unstable features during training to enhance robustness, enabling the model to learn a steady-state representation of traffic dynamics. Furthermore, the extracted features are aligned according to their inherent periodic patterns and leveraged for spatiotemporal prediction. Extensive experiments on five public benchmark datasets demonstrate that the proposed method achieves state-of-the-art performance.
@@ -62,7 +62,7 @@ To address the severe non-stationarity in traffic flow data, this study proposes
 <p></p>  <!-- 空行 -->
 <p></p>
 
-4.State Encoding for Efficient Traffic Signal Control in High Volume
+4.State Encoding for Efficient Traffic Signal Control in High Volume(Under Review)
 ======
 
 A biased state encoding model based on prior knowledge is proposed to improve exploration efficiency under limited computational resources and to mitigate potential out-of-distribution (OOD) errors after real-world deployment. By leveraging domain knowledge, the model identifies regions of the state space that are more informative and allocates greater representational emphasis to these regions through biased state encoding, thereby expanding the effective exploration space while reducing computational cost. Furthermore, the encoding mechanism enables unvisited states to be mapped to semantically similar trained states, enhancing the model’s extrapolation capability and robustness to unseen scenarios.
@@ -76,6 +76,19 @@ A biased state encoding model based on prior knowledge is proposed to improve ex
 <p></p>
 <p></p>  <!-- 空行 -->
 <p></p>
+
+# 5.ECRN: Expressiveness and Constraint of Road Networks in Traffic Forecasting（Doing）
+
+For accurate traffic flow forecasting, appropriate modeling of temporal dynamics and road network structure is crucial. 
+Existing methods often treat road network structure as a static modeling component, neglecting its dual role: it imposes structural constraints and enhances expressive power. Therefore, simply treating the road network as a static constraint will fail to reflect the anisotropy of real-world road structures.
+To address this issue, we propose an architecture called ECRN, which explicitly describes the dual role of the road network structure.
+ECRN decomposes structural influence into two complementary pathways. Structure-Enhanced Expressive Dynamics (SEED) introducing multiple candidate dynamics to expand the transformation space and performing structure-guided routing on these candidate objects, different nodes can instantiate role-related transformation operators. Structure-Regularized Consistent Dynamics (SRCD) on the other hand, constrains the structure-induced reference frame by regulating the latent representation, thereby directly limiting the hypothesis space and suppressing the temporal evolution of structural inconsistencies.
+
+<div class="pdf-actions" style="text-align: center; margin: 2em 0;">
+ <h3>Full Paper</h3>
+ <a href="/files/ECRN.pdf" class="btn" target="_blank" rel="noopener noreferrer">
+ </a>
+</div>
 
 5.My Master's Thesis
 ======
